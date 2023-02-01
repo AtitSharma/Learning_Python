@@ -1,0 +1,22 @@
+Euro  129.33
+US Dollar  127.18
+Euro  129.33	
+Uk Pound  153.46	
+Swiss Franc  133.42	
+Australian Dollar  88.48	
+Canadian Dollar  98.66	
+Singapore Dollar  92.05	
+Japanese Yen  0.94	
+Chinese Yuan  18.73	
+Saudi Arabian Riyal  33.87
+Qatari Riyal  34.78 
+Thai Baht  3.57 
+UAE Dirham  34.62
+Malaysian Ringgit  28.43	
+South Korean Won  0.0969529	
+Swedish Kroner  12.22	
+Danish Kroner  17.38	
+Hong Kong Dollar  16.21	
+Kuwaity Dinar  414.33	
+Bahrain Dinaar  337.35
+Indian Rupee  1.6 
