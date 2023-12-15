@@ -16,6 +16,8 @@ class Car:
             print(f"The {self.name} is faltastic and of model {self.model} and its speed is {self.speed} and its condition is {self.condition},its speed is {self.speed}")
         else:
             print("Nop")
+            
+            
 class Cycle(Car):
     population=100
     def __init__(self,name,model,speed,condition,kms,modell):
@@ -28,6 +30,7 @@ class Cycle(Car):
 
     @staticmethod
     def Isage(age):
+        # print(population)
         return age>=18
         
 

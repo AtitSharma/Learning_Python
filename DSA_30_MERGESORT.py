@@ -25,4 +25,4 @@ def MergeSort(arr):
         k+=1
     return arr
 
-print(MergeSort([9,7,5,4,3,2,1100,1,2,3]))
+print(MergeSort([9,7,5,4,3,2,1100,1,2,3,-1,-3,-100]))

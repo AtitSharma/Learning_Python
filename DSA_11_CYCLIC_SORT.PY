@@ -17,4 +17,4 @@ def Swap(arr,start,end):
     arr[start]=arr[end]
     arr[end]=temp
 
-print(Cyclic_Sort([0,1,2,3,7,6,5,9,10,11,12,4,8]))
+print(Cyclic_Sort([0,3,2,1,7,6,5,9,10,11,12,4,8]))

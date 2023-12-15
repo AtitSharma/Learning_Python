@@ -24,4 +24,4 @@ def Swap(arr,First,Second):
 
 
 
-print(Selection_Sort([9,8,3,4,2,1,0,100,110,19,0]))
+print(Selection_Sort([9,8,3,4,2,1,0,100,110,190,0]))

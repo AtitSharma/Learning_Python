@@ -1,9 +1,3 @@
-
-
-
-
-
-
 Price=0
 dict={}
 for i in range (int(input())):

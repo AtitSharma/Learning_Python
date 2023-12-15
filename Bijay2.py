@@ -11,3 +11,5 @@ if percentage >=40:
 else:
     print(f"You are fail because of low percentage i.e {round(percentage)}")
         
+
+

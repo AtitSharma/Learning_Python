@@ -3,4 +3,4 @@ def Prod(n):
         return 1
     else:
         return n%10 * Prod(n//10)
-print(Prod(523410))
+print(Prod(52341))

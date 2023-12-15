@@ -216,6 +216,20 @@ class LinkedList:
             n=n.ref
         n.ref=n.ref.ref
             
+            
+    def getsum_of_linklist(self):
+        if self.head==None:
+            return None
+        Sum=0
+        node=self.head
+        while node!= None:
+            # Sum+= node.data
+            Sum=Sum*10+node.data
+            node=node.ref  
+        print(Sum)
+            
+        
+        
 
 
 
@@ -230,18 +244,20 @@ class LinkedList:
 LL1=LinkedList()
 LL1.add_begin(1)
 LL1.add_end(2)
-# LL1.add_end(3)
-# LL1.add_end(4)
-# LL1.add_end(5)
-
-LL1.Print_LL()
+LL1.add_end(3)
+LL1.add_end(4)
+LL1.add_end(5)
+LL1.getsum_of_linklist()
+# LL1.Print_LL()
 # LL1.deleteindex(2)
-LL1.Delete_LL_From_last(2)
+# LL1.Delete_LL_From_last(2)
+
 # LL1.add_end(4)
 # LL1.add_end(7)
 # LL1.add_end(1)
 # LL1.add_end(2)
 # LL1.add_end(6)
 LL1.Print_LL()
+
 
 

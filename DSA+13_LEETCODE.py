@@ -19,4 +19,4 @@ def Swap(arr,start,end):
     temp=arr[start]
     arr[start]=arr[end]
     arr[end]=temp
-print(Cyclic_Sort_Missing_Number([4,5,6,3,1,0]))
+print(Cyclic_Sort_Missing_Number([4,5,6,3,1,2,0]))

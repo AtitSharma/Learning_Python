@@ -1,0 +1,60 @@
+<html>
+<body>
+
+<p id="demo"></p>
+<button tag="demo1" class="intro" onclick="clicked()"> HELO</button>
+<button class="intro2"> HELO2</button>
+<form id="frm1" >This is demo </form>
+<p id="p1"> DEMO</p>
+
+<form name="myForm" action="#" onsubmit="return validateForm()" method="post">
+    Name: <input type="text" name="fname">
+    <input type="submit" value="Submit">
+    </form>
+<div id ="container">
+    <div id ="animate">My animation will go here</div>
+</div>
+<h1 id="id01">My First Page</h1>
+<p id="id02"></p>
+
+<script>
+    document.getElementById("demo").innerHTML="Hello Guyz"
+    document.getElementsByTagName("p")[0].innerHTML="hello2"
+    // document.querySelectorAll("p.intro")[0].innerHTML = "k xa guyz"
+    document.getElementById("p1").innerHTML="DEMO 2"
+    // const elements1 = document.getElementById("frm1")
+    // elements1.innerHTML="TESKA BAJE";
+    function clicked(){
+    const elements1 = document.getElementById("frm1")
+    elements1.innerHTML="TESKA BAJE";
+    }
+
+    document.getElementById("demo").innerHTML = "Date :" + Date()
+    document.write(Date())
+
+
+    function validateForm(){
+        let x = document.forms["myForm"]["fname"].value
+        if (x==""){
+            alert('Form must not  be empty')
+            return false;
+        }
+    }
+    document.getElementById("demo").style.color="blue"
+
+    document.getElementsByClassName("intro2")[0].addEventListener("mouseover",function(){
+        alert("Sucessfully Clicked button 2");
+    });
+
+    document.getElementById("id02").innerHTML=document.getElementById("id01").innerHTML
+    
+
+
+
+
+
+</script>
+
+</body>
+
+</html>

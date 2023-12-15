@@ -7,7 +7,5 @@ def helper(n,c):
     rem=n%10
     if rem==0:
         return helper (n//10,c=c+1)
-
     return helper(n//10,c)
-
 print(CountZeros(302100))

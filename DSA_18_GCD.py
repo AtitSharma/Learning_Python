@@ -3,5 +3,5 @@ def gcd(a,b):
         return b
     else:
         return gcd(b%a,a)
-print(gcd(4,4))
+print(gcd(20,100))
 #GCD= GREATEST COMMON DIVISOR
