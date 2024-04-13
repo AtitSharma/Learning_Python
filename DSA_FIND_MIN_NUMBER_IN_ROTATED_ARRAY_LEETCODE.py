@@ -30,4 +30,4 @@ def Pivot(arr):
     return -1
     
     
-print(findElements([7,0,1,2,4,5,6]))
+print(findElements([3,3,3,1]))

@@ -8,4 +8,4 @@ def Combination(p,up):
     Combination(p,up[1:])
     Combination(p+char,up[1:])
     
-Combination("",'abc')
+Combination("",'abccccdd')
